@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Bem-vindo ao Projeto Escolar App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto foi desenvolvido como parte da disciplina **PAM** na **Etec Antonio Furlan**.
 
-## Get started
+## 💡 O que é o Projeto?
 
-1. Install dependencies
+Este projeto visa recriar um **aplicativo de informação escolar**, com o objetivo de facilitar o acesso dos estudantes a informações importantes sobre sua vida escolar, como:
 
-   ```bash
-   npm install
-   ```
+- 📋 **Boletim** de notas
+- 📅 **Calendário Escolar**
+- 📢 **Avisos**
+- 🎉 **Eventos**
+- 📞 **Informações de contato** da escola
 
-2. Start the app
+## 🚀 Tecnologias Utilizadas
 
-   ```bash
-    npx expo start
-   ```
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-In the output, you'll find options to open the app in a
+- **React Native** como framework principal para desenvolvimento de aplicativos móveis.
+- **Typescript** como a principal linguagem de programação (também é usado **Javascript** em algumas partes do projeto).
+- **Expo** para inicializar o projeto, configurar o ambiente e emular o aplicativo.
+- **Node.js** como runtime para o desenvolvimento e execução do projeto.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Como executar o projeto?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Faça download do codigo do projeto.
+2. Abra o projeto no Visual Studio Code
+3. Abra um novo terminal no Visual Studio Code e utilize os seguintes comandos para baixar as dependencias do aplicativo: "npm install" , "npm i @react-navigation/drawer" e caso ainda não tenha o Node.js certifique-se de baixa-lo.
+4. o aplicativo pode ser executado utilizando o comando "npm run web".
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 Licença
+Este projeto está licenciado sob a Licença GNU.
+   
