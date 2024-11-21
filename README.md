@@ -1,4 +1,4 @@
-# Bem-vindo ao Projeto Escolar App 👋
+# Bem-vindo ao Projeto-Sistema-Escolar 👋
 
 Este projeto foi desenvolvido como parte da disciplina **PAM** na **Etec Antonio Furlan**.
 
