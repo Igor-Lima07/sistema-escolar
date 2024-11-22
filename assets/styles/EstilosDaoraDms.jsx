@@ -99,6 +99,8 @@ export default StyleSheet.create({
     textAlign: "left",
     backgroundColor: "#fafbf6",
     margin: 20,
+    marginTop: "-40px",
+    marginBottom: "-10px",
     padding: 20,
     borderRadius: 10,
     fontWeight: "bolder",
