@@ -90,6 +90,8 @@ export default function pagePrincipal() {
         </Link>
       </View>
 
+      <View style={{marginBottom: 100}}></View>
+
       </SafeAreaView>
     </ScrollView>
   );
