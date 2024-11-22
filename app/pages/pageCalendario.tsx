@@ -8,9 +8,43 @@ export default function pageCalendario() {
       <SafeAreaView style={Estilos.SafeArea}>
 
         <View style={Estilos.Calendario}>
-          <Text style={{ fontSize: 24, fontWeight: "bold", textAlign: "center" }}>
+          <Text style={{ fontSize: 24, fontWeight: "bolder", textAlign: "center", marginBottom: "20px" }}>
             Calendário Escolar 2024
           </Text>
+            <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Fevereiro:</Text> 25/02 Início das Aulas{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Março:</Text> 29/03 Sexta-Feira Santa{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Abril:</Text> 22/04 Páscoa{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Maio:</Text> 01/05 Dia do Trabalho{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Junho:</Text> 24/06 Dia de São João{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Julho:</Text> 1 a 31 Férias Escolares{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Agosto:</Text> 19/08 Volta ás Aulas{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Setembro:</Text> 07/09 Dia da Independência{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Outubro:</Text> 12/10 Dia das Crianças{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Novembro:</Text> 02/11 Finados{"\n"}
+          </Text>
+          <Text style={Estilos.NomeEvento}>
+            <Text style={{ fontWeight: 'bold' }}>Dezembro:</Text> 18/12 Fim das Aulas {"\n"}
+          </Text>
+          
         </View>
 
         <View style={Estilos.ContainerEventos}>
